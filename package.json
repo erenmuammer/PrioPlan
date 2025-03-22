@@ -1,0 +1,43 @@
+{
+  "name": "prioplan",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A modern and user-friendly task management application",
+  "author": {
+    "name": "Muammer EREN",
+    "email": "muammer.eren@tedu.edu.tr",
+    "url": "https://github.com/erenmuammer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erenmuammer/PrioPlan.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hello-pangea/dnd": "^16.5.0",
+    "@heroicons/react": "^2.1.1",
+    "date-fns": "^3.3.1",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-datepicker": "^6.1.0",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-datepicker": "^4.19.5",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

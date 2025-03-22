@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-datepicker {
+  @apply bg-white border border-gray-200 rounded-lg shadow-lg;
+  width: fit-content !important;
+}
+
+.react-datepicker__month-container {
+  @apply w-[300px];
+}
+
+.react-datepicker__header {
+  @apply bg-white border-b border-gray-200 py-6 relative;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  @apply text-gray-700;
+}
+
+.react-datepicker__current-month {
+  @apply mt-1 font-semibold;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  @apply bg-blue-500 text-white rounded-full hover:bg-blue-600;
+}
+
+.react-datepicker__time-container {
+  @apply border-l border-gray-200;
+  width: 300px !important;
+}
+
+.react-datepicker__time {
+  @apply bg-white;
+  height: 60px !important;
+}
+
+.react-datepicker__time-box {
+  width: 300px !important;
+  height: 60px !important;
+}
+
+.react-datepicker__header--time {
+  @apply text-center py-2 border-b border-gray-200;
+}
+
+.react-datepicker__time-list {
+  @apply flex flex-row gap-2 px-4 py-2;
+  height: auto !important;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.react-datepicker__time-list-item {
+  @apply px-3 py-1 hover:bg-gray-100 cursor-pointer rounded-md;
+  height: auto !important;
+  display: inline-block;
+}
+
+.react-datepicker__time-list-item--selected {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.react-datepicker__navigation {
+  @apply absolute top-6;
+}
+
+.react-datepicker__navigation--previous {
+  @apply left-4;
+}
+
+.react-datepicker__navigation--next {
+  @apply right-4;
+}
+
+/* Özel scrollbar stilleri */
+.react-datepicker__time-box::-webkit-scrollbar {
+  @apply h-1.5;
+}
+
+.react-datepicker__time-box::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+.react-datepicker__time-box::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 hover:bg-gray-400 rounded-full;
+}
+
+.react-datepicker__navigation-icon::before {
+  @apply border-gray-400;
+  border-width: 2px 2px 0 0 !important;
+  height: 9px !important;
+  width: 9px !important;
+  top: 6px !important;
+}
+
+.react-datepicker__day:hover {
+  @apply bg-gray-100 rounded-full;
+}
+
+.react-datepicker__day--today {
+  @apply font-bold;
+}
+
+.react-datepicker__time-list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.react-datepicker__time-list::-webkit-scrollbar-track {
+  @apply bg-gray-100 rounded-full;
+}
+
+.react-datepicker__time-list::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+.react-datepicker__time-list::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+} 
