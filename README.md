@@ -4,14 +4,14 @@ A modern and user-friendly task management application.
 
 ## Features
 
-- ✨ Drag & Drop category and task ordering
-- 📋 Task categories (Work, Personal, Shopping, etc.)
-- 🎯 Priority tags (High, Medium, Low)
-- 📅 Date and time planning
-- 📝 Task descriptions
-- 🔔 Follow-up tasks
-- ✅ Completed tasks list
-- 🎨 Modern and minimalist design
+- Drag & Drop category and task ordering
+- Task categories (Work, Personal, Shopping, etc.)
+- Priority tags (High, Medium, Low)
+- Date and time planning
+- Task descriptions
+- Follow-up tasks
+- Completed tasks list
+- Modern and minimalist design
 
 ## Technologies
 
